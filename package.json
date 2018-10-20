@@ -1,5 +1,6 @@
 {
   "name": "robofriends",
+  "homepage": "http://laver0ck.github.io/robofriends-app",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
@@ -12,6 +13,8 @@
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test --env=jsdom",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build",
     "eject": "react-scripts eject"
   },
   "browserslist": [
@@ -19,5 +22,8 @@
     "not dead",
     "not ie <= 11",
     "not op_mini all"
-  ]
+  ],
+  "devDependencies": {
+    "gh-pages": "^2.0.1"
+  }
 }
