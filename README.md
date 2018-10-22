@@ -1,6 +1,7 @@
 FriendList FrontEnd app.
-Built with React.
+Built with React and Redux.
 
+No backend.
 Data is fetched from https://jsonplaceholder.typicode.com
 Robot images - from https://robohash.org/
 
