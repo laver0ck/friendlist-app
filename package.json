@@ -1,13 +1,13 @@
 {
   "name": "robofriends",
-  "homepage": "https://github.com/laver0ck/friendlist-app",
+  "homepage": "http://laver0ck.github.io/friendlist-app",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
-    "react": "^16.5.2",
-    "react-dom": "^16.5.2",
-    "react-redux": "^5.0.7",
-    "react-scripts": "^2.0.5",
+    "react": "^16.6.3",
+    "react-dom": "^16.6.3",
+    "react-redux": "^5.1.1",
+    "react-scripts": "^2.1.1",
     "redux": "^4.0.1",
     "redux-logger": "^3.0.6",
     "redux-thunk": "^2.3.0",
